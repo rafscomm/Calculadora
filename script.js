@@ -1,4 +1,6 @@
-var resposta = document.getElementById("resposta").innerHTML;
-function inserir(){
-    resposta= document.getElementById("num").innerHTML;
+
+function insert(num){
+ var numeros = document.getElementById("resposta").innerHTML;
+ document.getElementById("resposta").innerHTML = num + numeros;
+
 }
