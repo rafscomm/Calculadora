@@ -1,18 +1,22 @@
 div{
-  margin: 350px 600px;
   box-sizing: border-box;
   background-color: rgba(194,230,255,255);
   width: 200px;
   height: 350px;
+  position: absolute;
 }
 body{
   background-color: rgba(233,234,233,255);
+  width: 200px;
+  height: 350px;
+  margin: 350px 600px;
 }
 table{
-  position: relative;
+  position:relative;
   top: 100px;
   left: 40px;
-  
+  margin: 0px;
+  padding: 5px ; 
 }
 button{
   margin:5px auto;
@@ -20,4 +24,9 @@ button{
   border-radius: 25px;
   background-color: rgba(194,230,255,255);
   border: 0;
+}
+div table #numbers{
+  margin-right: 15px;
+  
+
 }
