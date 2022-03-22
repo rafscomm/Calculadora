@@ -1,4 +1,4 @@
-var resposta = document.getElementById("resposta");
+var resposta = document.getElementById("resposta").innerHTML;
 function inserir(){
-    resposta= document.getElementById("num");
+    resposta= document.getElementById("num").innerHTML;
 }
