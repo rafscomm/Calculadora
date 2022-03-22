@@ -1,32 +1,84 @@
-div{
-  box-sizing: border-box;
-  background-color: rgba(194,230,255,255);
-  width: 200px;
-  height: 350px;
-  position: absolute;
+div {
+    box-sizing: border-box;
+    background-color: rgba(194, 230, 255, 255);
+    width: 400px;
+    height: 650px;
+    position: relative;
+    margin: 400px auto;
+    box-shadow: 0 0 1em black;
+    
 }
-body{
-  background-color: rgba(233,234,233,255);
-  width: 200px;
-  height: 350px;
-  margin: 350px 600px;
+p{
+    text-align: right;
+    position: relative;
+    top: 90px;
+    font-size: 18px;
 }
-table{
-  position:relative;
-  top: 100px;
-  left: 40px;
-  margin: 0px;
-  padding: 5px ; 
-}
-button{
-  margin:5px auto;
-  font-size: 16px;
-  border-radius: 25px;
-  background-color: rgba(194,230,255,255);
-  border: 0;
-}
-div table #numbers{
-  margin-right: 15px;
-  
 
+body {
+    background-color: rgba(233, 234, 233, 255);
+}
+
+table {
+    position: relative;
+    top: 150px;
+    left: 40px;
+    
+}
+
+td {
+    min-width: 60px;
+    margin-right: 90px;
+    padding:15px;
+}
+
+td:first-child{
+    border-left-width: 1px;
+}
+
+ button {
+    margin-bottom: 25px;
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: rgba(194, 230, 255, 255);
+    border: 0;
+    padding: 8px;
+    
+    
+}
+
+
+
+.igual{
+    position: relative;
+    left: 180px;
+    
+}
+.mais{
+    position: relative;
+    right: 3px;
+}
+
+.zero{
+    position: relative;
+    left: 90px;
+
+}
+.c, .ce, .porcentagem{
+    background-color: white;
+}
+.divisao{
+    background-color: rgba(28,177,172,255);
+}
+.x{
+    background-color: rgba(99,237,21,255);
+}
+.sub{
+    background-color: rgba(239,126,129,255);
+}
+.mais{
+    background-color: rgba(240,188,10,255);
+}
+.igual{
+    background-color: rgba(140,109,163,255);
 }
