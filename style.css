@@ -87,3 +87,7 @@ button:hover{
 .igual{
     background-color: rgba(140,109,163,255);
 }
+#button-0{
+    position: relative;
+    left: 95px;
+}
